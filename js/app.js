@@ -7,7 +7,7 @@
 */
 
 "use strict";
-
+//creates a module and controller for the Address Book
 angular.module('AddressBook', [])
     .controller('AddressController', function($scope) {
         $scope.employees = pawneeEmployees;
